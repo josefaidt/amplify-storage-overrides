@@ -1,0 +1,12 @@
+{
+  "name": "amplify-storage-overrides",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:josefaidt/amplify-storage-overrides.git",
+  "author": "josef <josef.aidt@gmail.com>",
+  "scripts": {
+    "build": "echo 'no build'",
+    "start": "echo 'no start'"
+  },
+  "license": "MIT"
+}
