@@ -1,35 +1,40 @@
 {
-  "auth": {
-    "amplifystorageoverri22178bca": {
-      "service": "Cognito",
+  "api": {
+    "amplifystorageoverri": {
+      "service": "AppSync",
       "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false,
-      "frontendAuthConfig": {
-        "socialProviders": [],
-        "usernameAttributes": [],
-        "signupAttributes": [
-          "EMAIL"
-        ],
-        "passwordProtectionSettings": {
-          "passwordPolicyMinLength": 8,
-          "passwordPolicyCharacters": []
-        },
-        "mfaConfiguration": "OFF",
-        "mfaTypes": [
-          "SMS"
-        ],
-        "verificationMechanisms": [
-          "EMAIL"
-        ]
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
       }
+    },
+    "api987f283d": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "amplifystorageoverri479ff596",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
     }
   },
-  "storage": {
-    "s33b4bf5ec": {
-      "service": "S3",
+  "function": {
+    "amplifystorageoverri479ff596": {
+      "build": true,
       "providerPlugin": "awscloudformation",
-      "dependsOn": []
+      "service": "Lambda"
     }
   }
 }

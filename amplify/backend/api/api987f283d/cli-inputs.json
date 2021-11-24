@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/hello": {
+      "name": "/hello",
+      "lambdaFunction": "amplifystorageoverri479ff596",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

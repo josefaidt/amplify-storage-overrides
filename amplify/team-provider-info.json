@@ -1,22 +1,23 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-amplifystorageoverri-dev-125956-authRole",
-            "UnauthRoleArn": "arn:aws:iam::814763596509:role/amplify-amplifystorageoverri-dev-125956-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::814763596509:role/amplify-amplifystorageoverri-dev-125956-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-amplifystorageoverri-dev-125956-deployment",
-            "UnauthRoleName": "amplify-amplifystorageoverri-dev-125956-unauthRole",
-            "StackName": "amplify-amplifystorageoverri-dev-125956",
-            "StackId": "arn:aws:cloudformation:us-east-1:814763596509:stack/amplify-amplifystorageoverri-dev-125956/b86e2610-4d58-11ec-839a-12e8cbcaba35",
-            "AmplifyAppId": "d3765uftn8tx73"
-        },
-        "categories": {
-            "auth": {
-                "amplifystorageoverri22178bca": {},
-                "true": {}
-            },
-            "hosting": {}
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifystorageoverri-dev-140119-authRole",
+      "UnauthRoleArn": "arn:aws:iam::814763596509:role/amplify-amplifystorageoverri-dev-140119-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::814763596509:role/amplify-amplifystorageoverri-dev-140119-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifystorageoverri-dev-140119-deployment",
+      "UnauthRoleName": "amplify-amplifystorageoverri-dev-140119-unauthRole",
+      "StackName": "amplify-amplifystorageoverri-dev-140119",
+      "StackId": "arn:aws:cloudformation:us-east-1:814763596509:stack/amplify-amplifystorageoverri-dev-140119/4c3d8770-4d61-11ec-9e61-0e945a0e32cd",
+      "AmplifyAppId": "dd3s7xxrjerb6"
+    },
+    "categories": {
+      "function": {
+        "amplifystorageoverri479ff596": {
+          "deploymentBucketName": "amplify-amplifystorageoverri-dev-140119-deployment",
+          "s3Key": "amplify-builds/amplifystorageoverri479ff596-64507a63364977796843-build.zip"
         }
+      }
     }
+  }
 }

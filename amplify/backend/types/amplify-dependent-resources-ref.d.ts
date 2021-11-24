@@ -1,19 +1,22 @@
 export type AmplifyDependentResourcesAttributes = {
-    "auth": {
-        "amplifystorageoverri22178bca": {
-            "IdentityPoolId": "string",
-            "IdentityPoolName": "string",
-            "UserPoolId": "string",
-            "UserPoolArn": "string",
-            "UserPoolName": "string",
-            "AppClientIDWeb": "string",
-            "AppClientID": "string"
+    "api": {
+        "amplifystorageoverri": {
+            "GraphQLAPIKeyOutput": "string",
+            "GraphQLAPIIdOutput": "string",
+            "GraphQLAPIEndpointOutput": "string"
+        },
+        "api987f283d": {
+            "RootUrl": "string",
+            "ApiName": "string",
+            "ApiId": "string"
         }
     },
-    "storage": {
-        "s33b4bf5ec": {
-            "BucketName": "string",
-            "Region": "string"
+    "function": {
+        "amplifystorageoverri479ff596": {
+            "Name": "string",
+            "Arn": "string",
+            "Region": "string",
+            "LambdaExecutionRole": "string"
         }
     }
 }
