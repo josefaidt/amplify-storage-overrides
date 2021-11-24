@@ -16,12 +16,7 @@
                 "amplifystorageoverri22178bca": {},
                 "true": {}
             },
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d3765uftn8tx73",
-                    "type": "cicd"
-                }
-            }
+            "hosting": {}
         }
     }
 }
